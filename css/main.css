@@ -1,0 +1,81 @@
+header, footer {
+  width: 95%;
+  border: 1px solid black;
+  margin: 1%;
+}
+
+.sidebar, .content {
+  border: 1px solid black;
+  height: 45vh;
+  margin: 1%;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  text-align: left;
+}
+
+.content {
+  width: 73%;
+}
+
+.sidebar a:hover {
+  color: red;
+}
+
+.image1 img, .image2 img {
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Додаємо тінь */
+  border-radius: 10px; /* Додаємо радіуси для кутів */
+  width: 15%;
+  height: auto;
+}
+
+.image1 img:hover, .image2 img:hover {
+  transform: scale(1.1); /* Збільшуємо зображення при наведенні на нього */
+}
+
+footer {
+  background: blue;
+  color: white;
+  height: 22vh;
+}
+
+.lists-container {
+  display: flex;
+}
+
+.list {
+  list-style: none; /* Вилучення маркера списку */
+  width: calc(33.33% - 10px);
+}
+
+.list li {
+  padding: 2px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  display: flex;
+  height: 15vh;
+}
+
+
+
+
+
+
+
